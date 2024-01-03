@@ -1,0 +1,47 @@
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+
+
+# Environment variables
+.env
+
+
+
+In a typical Django project, there are several files and directories that you might want to exclude from version control using a .gitignore file. Below is a generic example of files and directories that are commonly added to the .gitignore file for a Django project:
+
+plaintext
+Copy code
+# .gitignore
+
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+
+# Database
+db.sqlite3
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.pyd
